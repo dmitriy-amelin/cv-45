@@ -13,11 +13,10 @@ def article_create_view(request):
             'name': 'One',
             'mail': "one@one.ru"
         }
-        context = {
-            'title': request.POST.get('title'),
-            'content': request.POST.get('content'),
-            'author': request.POST.get('author'),
-            'user': user
-        }
 
-        return render(request, 'article_view.html', context)
+        return render(request, 'article_view.html', {
+            'title': request.POST.get("title"),
+            'content': request.POST.get("content"),
+            'author': request.POST.get("author"),
+            'user': user
+        })
