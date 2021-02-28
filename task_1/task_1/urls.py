@@ -16,13 +16,10 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 from webapp.views import index_view, article_create_view, article_view
-from webapp2.views import webapp2_demo_view
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', index_view),
     path('article/add/', article_create_view),
     path('article/', article_view),
-    path('demo/', webapp2_demo_view),
-
 ]
