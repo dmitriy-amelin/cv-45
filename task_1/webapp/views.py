@@ -4,7 +4,12 @@ from webapp.models import Article
 
 
 def index_view(request):
-    return render(request, 'index.html')
+    articles = Article.objects.all()
+    context = {
+        'articles': articles
+    }
+
+    return render(request, 'index.html', context)
 
 
 def article_create_view(request):
