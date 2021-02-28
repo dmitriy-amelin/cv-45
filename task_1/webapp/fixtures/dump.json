@@ -44,6 +44,50 @@
   }
 },
 {
+  "model": "webapp.article",
+  "pk": 5,
+  "fields": {
+    "title": "564",
+    "content": "56465",
+    "author": "test3",
+    "created_at": "2021-02-28T10:40:20.253Z",
+    "updated_at": "2021-02-28T10:40:20.253Z"
+  }
+},
+{
+  "model": "webapp.article",
+  "pk": 6,
+  "fields": {
+    "title": "Статья 3",
+    "content": "afds",
+    "author": "test4",
+    "created_at": "2021-02-28T10:45:02.495Z",
+    "updated_at": "2021-02-28T10:45:02.495Z"
+  }
+},
+{
+  "model": "webapp.article",
+  "pk": 7,
+  "fields": {
+    "title": "Статья 7",
+    "content": "lkhjiojk",
+    "author": "mhnbkijf",
+    "created_at": "2021-02-28T10:47:15.374Z",
+    "updated_at": "2021-02-28T10:47:15.374Z"
+  }
+},
+{
+  "model": "webapp.article",
+  "pk": 8,
+  "fields": {
+    "title": "Статья 8",
+    "content": "sthfh",
+    "author": "ethyrn ",
+    "created_at": "2021-02-28T10:49:08.273Z",
+    "updated_at": "2021-02-28T10:49:08.273Z"
+  }
+},
+{
   "model": "auth.user",
   "pk": 1,
   "fields": {
