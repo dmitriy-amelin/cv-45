@@ -25,8 +25,11 @@ def article_create_view(request):
             content=content,
             author=author
         )
+        context = {
+            'article': article
+        }
 
-        return render(request, 'article_create.html', article)
+        return render(request, 'article_view.html', context)
 
 
 def article_view(request):
