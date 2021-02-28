@@ -5,14 +5,10 @@
     <title>View</title>
 </head>
 <body>
-    <h1>Future article:</h1>
-    <h2>{{ title }}</h2>
-    <p>{{ content }}</p>
-    <p>By: {{ author }}</p>
-
-    {% for key, value in user.items %}
-        <p><strong>{{ key }}:</strong> {{ value }}</p>
-    {% endfor %}
-
+    <p><a href="/">На главную</a></p>
+    <h1>Article:</h1>
+    <h2>{{ article.title }}</h2>
+    <p>{{ article.content }}</p>
+    <p>By: {{ article.author }}</p>
 </body>
 </html>
